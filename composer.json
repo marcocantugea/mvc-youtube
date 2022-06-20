@@ -1,0 +1,17 @@
+{
+    "name": "marcocantu/mvc-youtube",
+    "description": "ejemplo de mvc",
+    "authors": [
+        {
+            "name": "Marco Cantu Gea",
+            "email": "marco.cantu@gme.mx"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "controllers\\":"controllers/"
+        }
+    }
+}
