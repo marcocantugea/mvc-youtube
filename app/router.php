@@ -16,11 +16,12 @@ class router{
         }
 
         $url=$_GET['url'];
-
+        echo $url."<br/>";
         if(strpos($url,"/")===false) {
             $controlador=$url."Controller";
             $funcion="indexAction";
             $id=null;
+            $agrs=null;
         }else{
             $ruta= explode("/",$url);
             $controlador=$ruta[0]."Controller";

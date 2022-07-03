@@ -16,4 +16,10 @@ class mainController{
         echo "funcion de parse string";
     }
 
+    public function viewConfigAction(){
+        $args= func_get_args();
+        echo "pagina de ver configuracion ";
+        print_r($args);
+    }
+
 }
