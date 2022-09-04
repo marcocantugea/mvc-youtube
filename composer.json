@@ -7,7 +7,9 @@
             "email": "marco.cantu@gme.mx"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/http-foundation": "^5.4"
+    },
     "autoload": {
         "psr-4": {
             "app\\":"app/",

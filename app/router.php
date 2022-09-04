@@ -16,7 +16,6 @@ class router{
         }
 
         $url=$_GET['url'];
-        echo $url."<br/>";
         if(strpos($url,"/")===false) {
             $controlador=$url."Controller";
             $funcion="indexAction";
